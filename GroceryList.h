@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  GroceryList.h
 //  Groceries App
 //
 //  Created by Sreekala Santhakumari on 2/13/17.
@@ -8,10 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController;
+@interface GroceryList : NSObject
 
-//@property(nonatomic, strong) NSMutableArray *grocryCatagory;
-
+@property (nonatomic, strong) NSString *title1;
 
 @end
-
